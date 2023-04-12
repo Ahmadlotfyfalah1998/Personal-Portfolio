@@ -1,0 +1,139 @@
+
+  #welcome-section{
+  min-height:100vh;
+  
+  
+  }
+  
+   header{
+
+    position: fixed;
+    background-color: crimson;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+
+   }
+   main{
+
+
+
+   }
+   #navbar>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    margin-right: 40px;
+   }
+   #navbar>ul>li>a{
+text-decoration: none;
+color: #ffffff;
+
+   }
+    
+  
+  .parent{
+display: flex;
+flex-direction: row;
+
+
+  }
+  .parent>section{
+height: 300px;
+width:250px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+margin: 0 40px;
+text-decoration: none;
+background-color: rgb(97, 95, 95);
+  }
+  .parent>section>a>img{
+height: 200px;
+
+width: 250px;
+
+
+  }
+  #welcome-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(41, 41, 41);
+color: #ffffff;
+font-size: 30px;
+
+  }
+  body{
+    margin: 0;
+  }
+  #welcome-section>h3{
+    color: crimson;
+  }
+  #projects{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+background-color: rgb(91, 81, 148);
+
+  }
+  @media only screen and (max-width: 750px) {
+    .parent {
+      flex-direction: column;
+    }
+    .parent>section{
+margin-bottom: 40px;
+
+    }
+  }
+  .parent>section>a{
+    text-decoration: none;
+    color: #ffffff;
+   text-align: center;
+
+
+  }
+  h2{
+    color: #ffffff;
+    border-bottom: 2px solid;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #contact{
+display: flex;
+flex-direction: column;
+color: #ffffff;
+border-bottom: 4px solid red;
+width: 100%;
+align-items: center;
+  }
+  #contact>div{
+
+display: flex;
+flex-direction: row;
+gap: 10px;
+color: #ffffff;
+margin-bottom: 30px;
+  }
+  #contact>div>a{
+text-decoration: none;
+color: #ffffff;
+
+  }
+  #contact>h1, #contact>p{
+font-size: 25px;
+font-family: sans-serif;
+
+  }
